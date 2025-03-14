@@ -1,0 +1,26 @@
+.taskItem {
+  max-height: 50%;
+  min-width: 30%;
+  padding: 10px;
+  background-color: lavender;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.taskItem:hover {
+  background-color: rgb(243, 242, 241);
+}
+
+.iconClass {
+  font-size: 20px;
+  margin: 0px 5px;
+}
+.iconClass:hover {
+  cursor: pointer;
+}
+
+.align {
+  width: 15%;
+}
